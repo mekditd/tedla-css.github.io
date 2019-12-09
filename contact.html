@@ -8,48 +8,79 @@
     <title>Bootstrap Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="navbar navbar-header">
-            <!-- name logo -->
-            <section class="name">
-                <a href="#" class="navbar-brand">
-                    <h1>Tedla B.</h1>
-                </a>
-            </section>
+    <div class="container">
 
-            <!-- contact info -->
-            <section class="right">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+        <div class="header navbar navbar-header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            </section>
+                <!-- name logo -->
+                <div class="logo col-sm-12 col-md">
+                    <a class="navbar-brand" href="#">
+                        <h1>Tedla B</h1>
+                    </a>
+
+                </div>
+
+                 <!-- contact links -->
+                <div class="ul col-sm-12">
+                    <section class="navbar-nav mr-auto">
+                        <button class="nav-item active">
+                            <a class="nav-link" href="#">About </a>
+                        </button>
+                        <button class="nav-item active">
+                            <a class="nav-link" href="#">Portfolio </a>
+                        </button>
+                        <button class="nav-item active">
+                            <a class="nav-link" href="#">Contact </a>
+                        </button>
+                    </section>
+
+                </div>
+            </nav>
+
         </div>
         <div class="contact">
+
             <form>
-                <div class="name-input">
-                    <!-- <label for="exampleFormControlInput1">Email address</label> -->Name:
-                    <input type="email" class="name-input" 
-                        placeholder="John Smith">
-                </div>
+                <h2>Contact</h2>
+                <hr>
+
+                <!-- name -->
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
+                    <label for="inputAddress">Name</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="John Smith">
+                </div>
+
+                <!-- email -->
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
+                        placeholder="example@gmail.com">
                 </div>
->
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <label for="exampleFormControlTextarea1">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
+                <!-- submit -->
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+
         </div>
-    </nav>
+        <div class="omitted">
+
+        </div>
+        <div class="footer">
+
+        </div>
+        </nav>
+
+    </div>
+
+
 </body>
 
 </html>
