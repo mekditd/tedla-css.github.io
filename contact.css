@@ -1,34 +1,50 @@
-h1 {
-    background: green;
-
-}
- 
-.header{
-    width: 1024px;
+body {
+    background: rgba(241, 245, 243, 0.973);
 }
 
-.navbar{
-    margin: 10px 0px 10px 0px;
+.header {
     padding: 0;
+    margin: 0;
+
+}
+
+h1 {
+    position: static;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    float: right;
     
 }
 
-.ul {
-    float: right;
-}
-
-.container {
-    width: 1024px;
-    margin: 0 auto;
+.nav-link {
+    color: #495C5B;
 }
 
 .contact {
-    width: 60%;
+    background: #ffffff;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 200px;   
+
 }
 
-button {
-    border: 0;
-    background: local;
-    margin: 0;
-    padding: 0;
+.text-info {
+    font-size: 30px; 
+    font-weight: 500; 
+}
+
+.footer {
+    background: rgb(66, 66, 66);
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+
 }
