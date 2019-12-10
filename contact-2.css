@@ -1,6 +1,7 @@
-.about,
-.contact,
-.portfolio {
-    margin-left: 5px;
-    padding: 10px auto;
+
+
+
+@media screen and (max-width: 640px) {
+    
+
 }

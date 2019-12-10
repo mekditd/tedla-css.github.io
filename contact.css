@@ -1,3 +1,9 @@
+/* 
+.brand {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: rgba(241, 245, 243, 0.973);
 }
@@ -5,16 +11,18 @@ body {
 .header {
     padding: 0;
     margin: 0;
+    
 
 }
 
 h1 {
-    position: static;
+    position: relative;
 }
 
 .navbar-brand {
     padding: 0;
     margin: 0;
+    background: #17a2b8;
 
 }
 
@@ -48,3 +56,15 @@ li {
     text-align: center;
 
 }
+
+@media screen and (max-width:640px) {
+    body {        
+        padding: 0;
+        margin: 0;    
+    }
+    .header {
+        padding: 0;
+        margin-left: 0;   
+        width: ;
+    }
+} */
