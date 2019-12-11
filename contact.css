@@ -1,7 +1,18 @@
 
+* {
+    line-height: 1.5rem;
+    font-size: 24px;
+}
+
+.container {
+    margin-left: 0;
+    padding-left: 0;
+
+}
 .brand {
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 
 body {
@@ -23,8 +34,11 @@ h1 {
     padding: 0;
     margin: 0;
     background: #17a2b8;
+    color: #fff;
 
 }
+
+
 
 li {
     float: right;
@@ -82,5 +96,9 @@ li {
 
     .contact {
         margin: auto 10px;
+    }
+
+    .brand {
+        color: white;
     }
 }
