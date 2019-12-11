@@ -59,6 +59,15 @@ li {
 
 }
 
+.story {
+    margin-top: 20px;
+}
+
+.img-fluid {
+    margin: 10px;
+    overflow: auto;
+}
+
 @media screen and (max-width:640px) {
     body {        
         padding: 0;
