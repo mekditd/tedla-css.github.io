@@ -7,6 +7,7 @@
 .container {
     margin-left: 0;
     padding-left: 0;
+    max-width: 960px;
 
 }
 .brand {
@@ -97,6 +98,10 @@ li {
         background: #17a2b8;
     }
 
+    h1 {
+        
+    }
+
     .contact {
         margin: auto 10px;
     }
@@ -105,3 +110,25 @@ li {
         color: white;
     }
 }
+
+
+
+/*   <style type="text/css">
+    body { padding-top: 70px; }
+    .jumbotron {
+      color: #2c3e50;
+      background: #ecf0f1;
+
+    }
+    .navbar-inverse {
+      background: #2c3e50;
+      color: white;
+    }
+    .navbar-inverse .navbar-brand, .navbar-inverse a{
+      color:white;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+      color: white;
+    } 
+
+  </style> */
